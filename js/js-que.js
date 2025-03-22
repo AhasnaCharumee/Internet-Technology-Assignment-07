@@ -24,7 +24,6 @@ function startLoop() {
   changeLetter();
 }
 
-// Control functions
 function startAnimation() {
   if (!intervalId) {
     intervalId = setInterval(startLoop, 1000);
@@ -50,6 +49,5 @@ function changeLetter() {
   currentLetter = (currentLetter + letters.length - 1) % letters.length;
 }
 
-// Add button listeners
 document.getElementById("start-btn").addEventListener("click", startAnimation);
 document.getElementById("stop-btn").addEventListener("click", stopAnimation);
