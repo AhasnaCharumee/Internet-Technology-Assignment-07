@@ -53,3 +53,33 @@ body{
      position: relative;
     font-family:sans-serif;
 }
+.button,
+#start-btn
+{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+ .button,
+#stop-btn
+{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  } 
+  button:hover {
+    background-color: #c2185b;
+  }
+  
